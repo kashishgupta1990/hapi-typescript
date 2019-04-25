@@ -42,6 +42,7 @@ This is not finished, there's still a lot of things to improve. Here you got som
 
 - [X] Simple test suite - added by the help of [@jcloutz](https://github.com/jcloutz)
 - [X] Add support for test coverage - added by the help of [@jcloutz](https://github.com/jcloutz)
+- [ ] Add Socket.io for real time event send and receive.
 - [ ] Add GraphQL support
 - [ ] Add support for Auth with JWT or Sessions
 - [ ] Add support for TypeORM/Mongoose
@@ -59,7 +60,6 @@ This is not finished, there's still a lot of things to improve. Here you got som
 * `docker:ps`: List Docker containers
 * `docker:start`: Start Docker container based on docker-compose.yml file.
 * `docker:stop`: Stop Docker container
-* ``: 
 * `format:lint`: Runs tslint on the typescipt files, based on tslint.js settings.
 * `format:prettier`: Runs prettier on all ts-files.
 * `postinstall`: Runs build-ts script. This is used by eg. Heroku automatically.
@@ -68,3 +68,7 @@ This is not finished, there's still a lot of things to improve. Here you got som
 ## Contributing
 
 Of course, if you see something that you want to upgrade from this library, or a bug that needs to be solved, PRs are welcome!
+
+## This repository is cloned from 
+
+https://github.com/BlackBoxVision/typescript-hapi-starter
